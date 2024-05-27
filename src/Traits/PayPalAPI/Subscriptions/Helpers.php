@@ -506,7 +506,6 @@ trait Helpers
     public function addCustomId(string $custom_id)
     {
         $this->custom_id = $custom_id;
-
         return $this;
     }
 }
